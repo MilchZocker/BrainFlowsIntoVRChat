@@ -1,0 +1,3 @@
+python .\train.py --sample-size 1.0 --test-size 0.1 --batch-size 15 --epochs 500 --patience 50 --overlap-percent 0.25 --use-class-weights 1 --window-seconds 2.0 --reduce-lr-on-plateau 1 --learning-rate 5e-6 --reduce-lr-factor 0.7 --reduce-lr-patience 15 --early-stopping-min-delta 0.0001 --reduce-lr-min-delta 0.0001 --reduce-lr-cooldown 2 --label-smoothing 0.05 --head-hidden-units 64 --head-dropout-rate 0.5 --head-l2 5e-4 --use-second-head-dense 1 --second-head-units 32 --pooling-dropout-rate 0.25 --trainable-encoder-layers 2
+
+pause

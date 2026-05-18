@@ -1,0 +1,1 @@
+python .\record_eeg.py --board-id muse_2_board --action-indices 1 --overwrite-selected 0 --sessions 10 --window-length 20 --start-delay 2
